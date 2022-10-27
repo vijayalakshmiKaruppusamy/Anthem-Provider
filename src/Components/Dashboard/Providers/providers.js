@@ -3,7 +3,7 @@ import { provider } from "../../../Resources/string"
 import Footer from "../../Common/common"
 import { hydro } from "../../../Resources/string"
 import { TherapyInfo } from "../Drugs/HydrocoStyle"
-import {Home,About,Zipcode,Img,Input,Button,ButtonTag,Purpose,Query,Information,ProviderPage } from './providersStyle'
+import {Home,About,Zipcode,Img,Input,Button,ButtonTag,Purpose,Query,Information,ProviderPage,InfoHead} from './providersStyle'
 export default function Provider()
 {
     return(
@@ -27,7 +27,7 @@ export default function Provider()
             </About>
 
             <Information>
-             <h3>Important Information</h3>
+             <InfoHead>Important Information</InfoHead>
              <TherapyInfo>{hydro.therapy}</TherapyInfo>
         </Information>
         <Footer />

@@ -11,7 +11,11 @@ row-gap:1.5rem;
 background-color:white;
 color:black;
 padding:1rem;
-border-radius:6px;`
+border-radius:6px;
+@media (max-width: 420px) {
+    grid-template-columns:45% 50%;
+    gap:1rem;
+}`
 
 export const InputType = styled.div`
 display:flex;
@@ -40,7 +44,10 @@ height: 40px;
 background-color: rgb(33,101,219);
 padding: 1%;
 border-radius: 6px;
-border-color: rgb(33,101,219);`
+border-color: rgb(33,101,219);
+@media (max-width: 420px) {
+    width:90%;
+}`
 
 export const Blue = styled.p`
 background-color:red;`

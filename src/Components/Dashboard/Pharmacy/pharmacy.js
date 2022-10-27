@@ -1,5 +1,5 @@
 import { PageHeader,drugSearch } from "../../../Resources/string"
-import { Header,AreaPlan,Plan,YearPlan,SearchBar } from "./pharmacyStyle"
+import { Header,AreaPlan,Plan,YearPlan,SearchBar,Query } from "./pharmacyStyle"
 import { pharmacy } from "../../../Resources/string"
 import PharmacyInput from "./input"
 import Footer from "../../Common/common"
@@ -64,7 +64,7 @@ export const HeaderPart = () =>{
                         </>
              </Plan>
          </AreaPlan>
-         <h1>{pharmacy.query}</h1>
+         <Query>{pharmacy.query}</Query>
      </SearchBar>
          </>
     )

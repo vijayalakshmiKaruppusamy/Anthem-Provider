@@ -87,7 +87,7 @@ export default function About() {
                                     </Div>
                                     <Div>
                                         <Information>
-                                            <h3>{explain.importantinfo}</h3>
+                                            <h2>{explain.importantinfo}</h2>
                                             <P>{explain.info}
                                             </P>
                                         </Information>

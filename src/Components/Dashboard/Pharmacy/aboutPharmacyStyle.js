@@ -9,7 +9,11 @@ color:black;
 @media (max-width: 768px) {
     padding: 2px;
     width: 80%;
-}`
+}
+@media (max-width: 420px) {
+    padding:0 2rem;
+}
+`
 
 export const Planing = styled.div`
 display:flex;
@@ -33,6 +37,9 @@ grid-template-columns:300px 300px;
 padding-left:1.5rem;
 @media (max-width: 768px) {
     grid-template-columns:270px 270px;
+}
+@media (max-width: 420px) {
+    grid-template-columns:270px;
 }`
 
 export const StandardOptions = PreferOptions

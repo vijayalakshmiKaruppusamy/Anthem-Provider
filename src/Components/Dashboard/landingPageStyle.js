@@ -12,17 +12,22 @@ padding:2rem 4rem;`
 
 export const SearchBarHeader = styled.h1`
 color:white;
-margin:0;`
+margin:0;
+@media (max-width: 420px) {
+  text-align:center;
+  font-size:18px;
+}`
 
 export const SearchBarContent = styled.div`
 display:flex;
 padding:2rem 0rem;
-gap:1.5rem;`
+gap:1.5rem;
+@media (max-width: 420px) {
+  flex-direction:column;
+}`
 
 export const ContentWrapper = styled.div`
 width:31%;
-// display:flex;
-// flex-direction:column;
 border-radius:0.5rem;
 background-color:white;
 text-align:center;
@@ -30,6 +35,9 @@ padding:2rem 4rem;
 @media (max-width: 768px) {
   width:40%;
   padding:0.5rem 1.5rem;
+  }
+  @media (max-width: 420px) {
+   width:90%;
   }`
 
 export const ButtonTag = styled.div`

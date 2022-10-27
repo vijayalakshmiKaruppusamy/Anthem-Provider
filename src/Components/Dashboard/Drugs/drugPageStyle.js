@@ -12,16 +12,25 @@ padding:2rem 4rem;`
 export const AreaPlan = styled.div`
 column-gap:2%;
 margin-bottom:1.5rem;
-display:flex;`
+display:flex;
+@media (max-width: 420px) {
+    flex-direction:column;
+    row-gap:10px;
+ }`
 
 export const Plan = styled.div`
 display:flex;`
 
 export const Query = styled.h1`
-margin-top:0;`
+margin-top:0;
+@media (max-width: 420px) {
+    font-size:18px;
+    margin:1rem 0;
+ }`
 
 export const Input = styled.input`
 border:none;
+outline:none;
 `
 export const SearchBar =styled.div`
 display:flex;
@@ -29,7 +38,9 @@ justify-content:space-between;
 background-color:white;
 border-radius:8px;
 padding:5px;
-`
+@media (max-width: 420px) {
+   width:100%;
+ }`
 
 export const Button = styled.button`
 background-color:blue;

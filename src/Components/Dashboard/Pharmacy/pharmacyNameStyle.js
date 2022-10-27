@@ -8,6 +8,10 @@ width:30%;
     width:40%;
     padding:0;
     };
+ @media (max-width: 420px) {
+        width:90%;
+        padding:1rem;
+}
 `
 export const AddressContact = styled.div`
 font-size:14px;`
@@ -72,5 +76,8 @@ export const SubDivision = styled.div`
 width:70%;`
 
 export const Page = styled.div`
-display:flex;`
+display:flex;
+@media (max-width: 420px) {
+    flex-direction:column;
+}`
 

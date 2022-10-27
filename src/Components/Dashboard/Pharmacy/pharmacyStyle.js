@@ -13,7 +13,17 @@ padding:1.5rem 4rem;`
 export const AreaPlan = styled.div`
 margin-bottom:1.5rem;
 display:flex;
-column-gap:2%;`
+column-gap:2%;
+@media (max-width: 420px) {
+    flex-direction:column;
+    row-gap:8px;
+}`
+
+export const Query = styled.h1`
+@media (max-width: 420px) {
+    font-size:15px;
+    margin-bottom:0;
+}`
 
 export const Plan = styled.div`
 display:flex;`
